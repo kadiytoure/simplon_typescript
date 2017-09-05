@@ -28,4 +28,4 @@ monTableau.filter((valeur) => {
 });
 
 //Syntaxe d'import de module
-import  {} from './first';
+import  {MaClasse} from './ma-classe';
