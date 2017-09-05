@@ -1,4 +1,11 @@
 var maVariable = 'bloup';
 var varNumber = 100;
-var doudidou = 'bloup';
+var tableauString = [
+    "ga",
+    "zo",
+    "bu"
+];
+function maFonction(arg) {
+    return arg.length;
+}
 //# sourceMappingURL=first.js.map
