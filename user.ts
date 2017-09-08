@@ -1,17 +1,19 @@
-export class Utilisateur {
-    user: string;
-    psswd: string;
+export class User {
+    name: string;
+    password: string;
 
-    constructor(user: string, psswd:string ) {
-        this.user = user;
-        this.psswd = psswd;
+    constructor(name, password:string ) {
+        this.name = name;
+        this.password = password;
     }
+    /*
     shout():string {
 return "this.user";
 //return "this.psswd";
     }
+*/
 }
-
+/*
 export class GestionUtilisateur {
     private name:string[] = [];
 
@@ -27,3 +29,4 @@ export class GestionUtilisateur {
         return this.name;
     }
 }
+*/
