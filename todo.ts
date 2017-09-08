@@ -1,4 +1,4 @@
-class Todo {
+export class Todo {
 private liste: string[] = [];
 ajouter(item: string): void {
     this.liste.push(item);

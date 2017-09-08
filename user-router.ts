@@ -9,7 +9,7 @@ userRouter.use("/", bodyParser.json());
 
 // We receive a POST request so we create a 
 //new user.
-userRouter.post("/", function(req,res) {
+userRouter.post("/add", function(req,res) {
 let name = req.body.name;
 let pass = req.body.password;
 if (!name || !pass) {
