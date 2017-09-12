@@ -22,7 +22,9 @@
     },
     "homepage": "https://github.com/kadiytoure/simplon_typescript#readme",
     "dependencies": {
+        "@types/jquery": "^3.2.12",
         "body-parser": "^1.17.2",
-        "express": "^4.15.4"
+        "express": "^4.15.4",
+        "jquery": "^3.2.1"
     }
 }
